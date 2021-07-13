@@ -34,7 +34,8 @@ int main()
 	{
 		cin>>a[i];
 	}
-	cout<<"enter element to be searched"<<endl;
+	cout<<"enter element to be searched";
+	cout<<endl;
 	cin>>x;
 	
 	result=binary_search(a,x,0,n-1);
